@@ -14,3 +14,12 @@ add below code in Atom stylesheet
   font-size: 18px;
 }
 ```
+
+
+3)
+force the system run python script under python3, add below code to the top of the script (test in mac)
+
+```
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+```
