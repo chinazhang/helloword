@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # importing tkinter and tkinter.ttk
 # and all their functions and classes
 from tkinter import *
