@@ -1,4 +1,0 @@
-if arise
-"Git refusing to merge unrelated histories"
-
-run commond "git pull origin master --allow-unrelated-histories" in term

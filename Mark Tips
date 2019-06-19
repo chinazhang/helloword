@@ -1,0 +1,16 @@
+
+1)
+Problem: if arise "Git refusing to merge unrelated histories"
+
+Solved:  run commond "git pull origin master --allow-unrelated-histories" in term
+
+
+2)
+Change result of code style in Atom
+
+add below code in Atom stylesheet
+```
+.script-view .line {
+  font-size: 18px;
+}
+```
