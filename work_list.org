@@ -5,7 +5,8 @@
 * [TODO] 东海大桥使用FSMF，只能使用6G光模块
 * [TODO] FL16A升级路径准备
 * [TODO] 电调马达识别数目整理
-* [TODO] 如何从feature找到所需LIC的code号
+* [DONE] 如何从feature找到所需LIC的code号(Network Administration > Network Administration Overview and Operations > Software Asset Monitoring > Monitoring based license management > CM SWEM monitoring modules > CM based monitoring for LTE technology)
+  CLOSED: [2019-06-27T19:36:20--8:00]
 * [TODO] 101386  100.92.118.167   F频段使用的是6G光模块的2根光纤，升级18后小区起不来
 * [DONE] 整理SRAN主设备清单
   CLOSED: [2019-06-26T23:30:43--8:00]
@@ -17,4 +18,4 @@
 * [TODO] 手机git软件
 * [DONE] 脚本对比，查找MME不通原因（未发现原因）
   CLOSED: [2019-06-26T23:30:28--8:00]
-* [TODO] 打开SRAN17A  SSH开关   删除基站MR参数
+* [TODO] 打开SRAN17A  SSH开关(actServiceAccountSsh)   删除基站MR参数
