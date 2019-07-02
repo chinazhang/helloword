@@ -1,21 +1,28 @@
 ## TODO items
 * [TODO] 核对GSM集成情况
-* [TODO] 核对SRAN时钟参数清单
+* [DONE] 核对SRAN时钟参数清单
+  CLOSED: [2019-07-01T18:17:08--8:00]
 * [TODO] 测试SRAN18A基站FDD双载频
-* [TODO] 东海大桥使用FSMF，只能使用6G光模块
+* [DONE] 东海大桥使用FSMF，只能使用6G光模块
+  CLOSED: [2019-07-01T18:17:49--8:00]
 * [TODO] FL16A升级路径准备
-* [TODO] 电调马达识别数目整理
+* [DONE] 电调马达识别数目整理
+  CLOSED: [2019-07-01T20:01:16--8:00]
 * [DONE] 如何从feature找到所需LIC的code号(Network Administration > Network Administration Overview and Operations > Software Asset Monitoring > Monitoring based license management > CM SWEM monitoring modules > CM based monitoring for LTE technology)
   CLOSED: [2019-06-27T19:36:20--8:00]
 * [TODO] 101386  100.92.118.167   F频段使用的是6G光模块的2根光纤，升级18后小区起不来
 * [DONE] 整理SRAN主设备清单
   CLOSED: [2019-06-26T23:30:43--8:00]
 * [TODO] 保利凯悦酒店NL01W   949451  嘉汉豪NL1H 100.92.247.218   嘉公路NL1H 100.92.118.166  整理反复退服原因
-* [TODO] GPS参数还差OMC6的站点没有完成。完成后需再整理一版现网GPS告警清单
-* [TODO] 更新现网业务IP表
+* [DONE] GPS参数还差OMC6的站点没有完成。完成后需再整理一版现网GPS告警清单
+  CLOSED: [2019-07-01T18:17:17--8:00]
+* [DONE] 更新现网业务IP表
+  CLOSED: [2019-07-01T18:17:38--8:00]
 * [DONE] ASIA开6个AHEH三个20M小区，需要开bbpooling功能
   CLOSED: [2019-06-26T23:30:32--8:00]
 * [TODO] 手机git软件
 * [DONE] 脚本对比，查找MME不通原因（未发现原因）
   CLOSED: [2019-06-26T23:30:28--8:00]
 * [TODO] 打开SRAN17A  SSH开关(actServiceAccountSsh)   删除基站MR参数
+* [DONE] 补海洋馆4G邻区
+  CLOSED: [2019-07-01T11:36:26--8:00]
