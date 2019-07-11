@@ -1,0 +1,14 @@
+
+
+
+* [TODO] 需要时间才能完成
+  * 完整学习编程中的类
+  * 掌握绘画技巧
+  * 系统学习Analytical Mechanics for Relativity and Quantum Mechanics
+  * 尝试在树莓派 1 b+ 上进行GPU编程
+* [TODO] 需要技能
+  * 写一本关于记忆移植的幻想小说，并构思为一款游戏   需要时间   技能需要绘画or游戏引擎学习？
+  * 用iPad学习画画
+  * 练习英文写作
+* [TODO] 立即可以完成
+  *

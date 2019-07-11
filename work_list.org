@@ -30,8 +30,17 @@
   CLOSED: [2019-07-01T11:36:26--8:00]
 * [DONE] 100FDD站点MR删创
   CLOSED: [2019-07-05T18:42:44--8:00]
-* [TODO] 收集进博会证件
+* [DONE] 收集进博会证件
+  CLOSED: [2019-07-11T17:17:50--8:00]
 * [DONE] SRAN18SP版本MR删创   18版本的MR参数需增加iFMDTPercentage
   CLOSED: [2019-07-03T19:11:25--8:00]
-* [TODO] 56100宝邮开FDD站申请脚本
-* [TODO] sfpmonitor.bat -ipfile IP. txt -pw Nemuadmin:nemuuser -outdir d:\ZGW\0705
+* [TODO] 56100宝邮开FDD站申请脚本  729092  100.92.177.23  集成 10.222.44.45
+* [DONE] sfpmonitor.bat -ipfile IP. txt -pw Nemuadmin:nemuuser -outdir d:\ZGW\0705
+  CLOSED: [2019-07-08T09:33:45--8:00]
+* [TODO] 核查小区分裂方案
+* [DONE] 100.92.117.109 验证TL18A 5.0  omc3站
+  CLOSED: [2019-07-09T01:25:01--8:00]
+* [TODO] 100.92.108.111   104514      （100.92.109.55   550732  正常）  omc3
+* [TODO] (100.92.116.118  31755 竖接FZHM不测试)  100.93.103.246   556151  升MP3.1  升MP5  omc8
+* [TODO] 打工程
+* [TODO] 列出100件想完成的事，把这些事分成三类：需要某些技能才能完成、可以马上完成、需要时间才能完成。剩下的任务就是每天读这100件事，看自己需要学哪些技能、需要如何挤出时间来完成这些事
