@@ -43,6 +43,11 @@ iface myphone inet static
          broadcast 192.168.43.255
           gateway 192.168.43.1
 
+----------------------------------------------------------------------------------------
+
+sudo dhclient wlan0    此命令可以启动wpa客户端并从路由器获得一个地址来上网/详细参见https://jonathansblog.co.uk/kali-linux-wpa_supplicant-cli-config
+
+-----------------------------------------------------------------------------------------
 
 document
 /usr/share/doc/wpasupplicant/README.Debian.gz
