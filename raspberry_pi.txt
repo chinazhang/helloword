@@ -47,6 +47,35 @@ iface myphone inet static
 
 sudo dhclient wlan0    此命令可以启动wpa客户端并从路由器获得一个地址来上网/详细参见https://jonathansblog.co.uk/kali-linux-wpa_supplicant-cli-config
 
+Kali linux wpa_supplicant cli config.
+
+To setup a wifi connection using wpa_supplicant on the cli in kali, first you have to bring up your network interface
+
+ifconfig wlan0 up
+
+Next, we create a config file
+
+wpa_passphrase 'router_ssid' 'wifi_password' > /etc/wpa_supplicant.conf
+
+We need to edit the config file and remove some things
+
+vim /etc/wpa_supplicant.conf
+
+Change the config file so that it contains:
+
+network={
+    ssid="router_ssid"
+    #psk="wifi_password"
+    psk=long_hex_string_goes_here
+}
+
+Finally, we can auth with our router and obtain an ip address to access the network
+
+sudo wpa_supplicant -B -iwlan0 -c/etc/wpa_supplicant.conf -Dwext
+sudo dhclient wlan0
+
+Command Line Options (taken from the wpa_supplicant man page)
+
 -----------------------------------------------------------------------------------------
 
 document
