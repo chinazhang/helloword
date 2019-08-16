@@ -1,8 +1,8 @@
 SELECT
 --*
 a.MRBTS_ID
-,a.cip 管理IP
-,b.uip 业务IP
+,a.cip mplanip
+,b.uip Uplanip
 ,a.co_name BTSNAME
 ,FDD.enb_id FDD_enbid
 ,FDD.FDDenbname FDDNAME
@@ -11,7 +11,7 @@ a.MRBTS_ID
 ,NB.enb_id NB_enbid
 ,NB.NBenbname NBname
 ,NB.bts_op_state NBSTATE
-,SW.ACTIVESWRELEASEVERSION 软件包
+,SW.ACTIVESWRELEASEVERSION swversion
 ,oamaddres.oamip oamplace
 ,MRSERVICE.mrip MRIPadd
 ,FDD.mrswitch FDDMRSWITCH
@@ -200,8 +200,8 @@ UNION
 SELECT
 --*
 a.MRBTS_ID
-,a.cip 管理IP
-,b.uip 业务IP
+,a.cip mplanip
+,b.uip Uplanip
 ,a.co_name BTSNAME
 ,FDD.enb_id FDD_enbid
 ,FDD.FDDenbname FDDNAME
@@ -210,7 +210,7 @@ a.MRBTS_ID
 ,NB.enb_id NB_enbid
 ,NB.NBenbname NBname
 ,NB.bts_op_state NBSTATE
-,SW.ACTIVESWRELEASEVERSION 软件包
+,SW.ACTIVESWRELEASEVERSION swversion
 ,oamaddres.oamip oamplace
 ,MRSERVICE.mrip MRIPadd
 ,FDD.mrswitch FDDMRSWITCH
@@ -399,8 +399,8 @@ UNION
 SELECT
 --*
 a.MRBTS_ID
-,a.cip 管理IP
-,b.uip 业务IP
+,a.cip mplanip
+,b.uip Uplanip
 ,a.co_name BTSNAME
 ,FDD.enb_id FDD_enbid
 ,FDD.FDDenbname FDDNAME
@@ -409,7 +409,7 @@ a.MRBTS_ID
 ,NB.enb_id NB_enbid
 ,NB.NBenbname NBname
 ,NB.bts_op_state NBSTATE
-,SW.ACTIVESWRELEASEVERSION 软件包
+,SW.ACTIVESWRELEASEVERSION swversion
 ,oamaddres.oamip oamplace
 ,MRSERVICE.mrip MRIPadd
 ,FDD.mrswitch FDDMRSWITCH
@@ -598,8 +598,8 @@ UNION
 SELECT
 --*
 a.MRBTS_ID
-,a.cip 管理IP
-,b.uip 业务IP
+,a.cip mplanip
+,b.uip Uplanip
 ,a.co_name BTSNAME
 ,FDD.enb_id FDD_enbid
 ,FDD.FDDenbname FDDNAME
@@ -608,7 +608,7 @@ a.MRBTS_ID
 ,NB.enb_id NB_enbid
 ,NB.NBenbname NBname
 ,NB.bts_op_state NBSTATE
-,SW.ACTIVESWRELEASEVERSION 软件包
+,SW.ACTIVESWRELEASEVERSION swversion
 ,oamaddres.oamip oamplace
 ,MRSERVICE.mrip MRIPadd
 ,FDD.mrswitch FDDMRSWITCH
