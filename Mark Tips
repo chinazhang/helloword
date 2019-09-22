@@ -30,3 +30,11 @@ code below can install HomeBrew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+5)
+vultr shadowsocks tips
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+./shadowsocks-all.sh uninstall
+/etc/init.d/shadowsocks-go start | stop | restart | status
