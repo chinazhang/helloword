@@ -35,7 +35,7 @@
 * [DONE] SRAN18SP版本MR删创   18版本的MR参数需增加iFMDTPercentage
   CLOSED: [2019-07-03T19:11:25--8:00]
 * [TODO] 56100宝邮开FDD站申请脚本  729092  100.92.177.23  集成 10.222.44.45
-* [DONE] sfpmonitor.bat -ipfile IP. txt -pw Nemuadmin:nemuuser -outdir d:\ZGW\0705
+* [DONE] sfpmonitor.bat -ipfile IP.txt -pw Nemuadmin:nemuuser -outdir d:\ZGW\0705
   CLOSED: [2019-07-08T09:33:45--8:00]
 * [TODO] 核查小区分裂方案
 * [DONE] 100.92.117.109 验证TL18A 5.0  omc3站
