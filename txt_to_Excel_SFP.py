@@ -11,6 +11,7 @@ from tkinter.ttk import *
 from tkinter.filedialog import askopenfile
 
 import xlsxwriter
+import os
 
 root = Tk()
 root.geometry('600x350')
@@ -21,7 +22,7 @@ content=''
 def open_file():
     global content
     global entry
-    file = askopenfile(mode ='r', filetypes =[('Python Files', '*.py'),('XML Files','*.xml'),('TXT Files','*.txt *.log')])
+    file = askopenfile(mode ='r', filetypes =[('TXT Files','*.txt *.log'),('Python Files', '*.py'),('XML Files','*.xml')])
     if file is not None:
         content = file.name
     entry.delete(0,END)
@@ -73,11 +74,12 @@ def txtToExcel(file_txt, file_excel):
     # 行号，具体信息从第二行开始
     row = 2
 
+    current_dir = os.path.abspath(os.path.dirname(file_txt))
     file_name = open(file_txt, 'r')
     file_list = file_name.readlines()
     for filename in file_list:
         filename = filename.rstrip("\n")
-        txt = open(filename, 'r', encoding='UTF-8')
+        txt = open(current_dir+"\\"+filename, 'r', encoding='UTF-8')
         data = txt.readlines()
 
 
