@@ -38,3 +38,7 @@ chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ./shadowsocks-all.sh uninstall
 /etc/init.d/shadowsocks-go start | stop | restart | status
+
+6)
+java home D:\Program Files\Java\jdk1.8.0_144;.\jre1.5.0_11
+claspath(do not set since version 1.5)  .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tool.jar;.\lib\webclient-2_0_a9.jar;.\jre1.5.0_11\bin;.\jre1.5.0_11\lib;.\jre1.5.0_11\lib\rt.jar
